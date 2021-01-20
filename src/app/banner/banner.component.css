@@ -1,0 +1,43 @@
+.bannerh5{
+    text-align: center;
+    color:white;
+    margin:0;
+    padding:0.3em;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+}
+
+.pitch {
+    top: 135px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-style: italic;
+    font-size: 1em;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(88, 88, 88, 0.5);
+}
+
+.container-banner{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+img {
+    display: block; /* remove extra space below image */
+    height:100% !important;
+    width:100% !important;
+    object-fit: cover;
+    margin: 0 auto;
+    height: auto;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
