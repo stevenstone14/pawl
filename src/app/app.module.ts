@@ -8,7 +8,8 @@ import { FooterComponent } from './footer/footer.component';
 import { BannerComponent } from './banner/banner.component';
 import { ContentComponent } from './content/content.component';
 import { DiscordRulesComponent } from './discord-rules/discord-rules.component';
-import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { SignupComponent } from './signup/signup.component';
+// import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -17,13 +18,14 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     FooterComponent,
     BannerComponent,
     ContentComponent,
-    DiscordRulesComponent
+    DiscordRulesComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
   ],
-  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
